@@ -207,11 +207,77 @@ body, html {
   .input-group, .form-btn { max-width: 100%; }
 }
 @media (max-width: 700px) {
+  .center-content {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    width: 90vw;
+  }
+  .main-btn {
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    min-width: 0;
+  }
+  .modal-content {
+    min-width: 0;
+    width: 95vw;
+    padding: 1rem 0.5rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+  }
+  .form-slider {
+    width: 100%;
+    min-width: 0;
+  }
+  .form {
+    min-width: 0;
+    width: 100%;
+    padding: 0;
+  }
   .form-row {
     flex-direction: column;
     gap: 0.5rem;
+    width: 100%;
   }
   .form-row .input-group, .input-group.full-width {
     max-width: 100%;
+    width: 100%;
+  }
+  .input-group {
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.7rem;
+    font-size: 1rem;
+  }
+  .input-group input {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+  }
+  .form-btn {
+    font-size: 1rem;
+    padding: 0.7rem;
+    max-width: 100%;
+  }
+  .switch-link {
+    font-size: 0.95rem;
+  }
+  .close {
+    font-size: 1.2rem;
+    right: 0.7rem;
+    top: 0.7rem;
+  }
+  .congrats h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .modal-content {
+    width: 100vw;
+    padding: 0.5rem 0.2rem;
+    border-radius: 0.5rem;
+  }
+  .form-btn {
+    font-size: 0.95rem;
+    padding: 0.5rem;
   }
 }
